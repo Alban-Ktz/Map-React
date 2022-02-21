@@ -14,6 +14,6 @@ Cordova
 BASQUIN Thomas<br>
 CARL Noé<br>
 COURS Nathan<br>
-DESTREMONT Andrien<br>
+DESTREMONT Adrien<br>
 KREBS Jérémie<br>
 KUNTZ Alban
