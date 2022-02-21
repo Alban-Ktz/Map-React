@@ -11,9 +11,9 @@ Bootstrap (via React-Boostrap)
 Cordova
 
 ## Composition du groupe
-BASQUIN Thomas
-CARL Noé
-COURS Nathan
-DESTREMONT Andrien
-KREBS Jérémié
+BASQUIN Thomas<br>
+CARL Noé<br>
+COURS Nathan<br>
+DESTREMONT Andrien<br>
+KREBS Jérémié<br>
 KUNTZ Alban
