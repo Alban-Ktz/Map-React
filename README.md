@@ -15,5 +15,5 @@ BASQUIN Thomas<br>
 CARL Noé<br>
 COURS Nathan<br>
 DESTREMONT Andrien<br>
-KREBS Jérémié<br>
+KREBS Jérémie<br>
 KUNTZ Alban
