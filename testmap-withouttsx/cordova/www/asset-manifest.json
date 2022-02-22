@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8e278ff7.css",
+    "main.js": "./static/js/main.9ce334a1.js",
+    "static/media/eiffel.png": "./static/media/eiffel.9424517d5c41db37540d.png",
+    "static/media/transport.png": "./static/media/transport.9f06d34c8d0c78d1f56c.png",
+    "static/media/beer.png": "./static/media/beer.03d13ad564a2b7f4a200.png",
+    "index.html": "./index.html",
+    "static/media/trophyIcon.svg": "./static/media/trophyIcon.8303b52262d793626e5b2701e5f2ac04.svg",
+    "static/media/mapIcon.svg": "./static/media/mapIcon.6951753bea990f0d36759ee2cfb50c13.svg",
+    "static/media/profileIcon.svg": "./static/media/profileIcon.26bbfd11097ccf4cdb10e4899e5746eb.svg",
+    "main.8e278ff7.css.map": "./static/css/main.8e278ff7.css.map",
+    "main.9ce334a1.js.map": "./static/js/main.9ce334a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e278ff7.css",
+    "static/js/main.9ce334a1.js"
+  ]
+}
