@@ -1,0 +1,30 @@
+.navBar {
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  display: flex;
+  align-items: center;
+
+  position: absolute;
+	top: 90vh;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+  min-height: 65px;
+  width: 90%;
+  border-radius: 25px;
+
+  z-index: 9998;
+}
+
+.navBar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.navIcon {
+  min-height: 24px;
+}

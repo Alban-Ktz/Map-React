@@ -1,0 +1,28 @@
+.successHeader {
+  background: linear-gradient(279.2deg, #4776e6 2.22%, #8e54e9 69.85%);
+  border-radius: 0px 0px 25px 25px;
+  min-height: 20vh;
+}
+
+.boxSuccess {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: fit-content;
+}
+
+.counterTrophy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.counter {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+
+.trophy {
+    margin-left: 10px;
+}
