@@ -1,6 +1,7 @@
 import React from "react";
 import "./Map.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import Marqueur from "../Marqueur/Marqueur";
 
 class Map extends React.Component {
   render() {
@@ -14,19 +15,8 @@ class Map extends React.Component {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
-        <Marker position={position}>
-          <Popup>
-            <h1>IUT de Metz</h1>
-            <p>Institut technologique universitaire de Metz</p>
-          </Popup>
-        </Marker>
-        <Marker position={cathedrale}>
-          <Popup>
-            <h1>Cathédrale de Metz</h1>
-            <p>La cathédrale</p>
-          </Popup>
-        </Marker>
+        <Marqueur position={cathedrale} nom={'Cathédrale'} des = {'salut'}/>
+        
       </MapContainer>
     );
   }
