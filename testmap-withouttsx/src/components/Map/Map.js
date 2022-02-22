@@ -5,7 +5,6 @@ import Marqueur from "../Marqueur/Marqueur";
 
 class Map extends React.Component {
   render() {
-    
     const position = [49.12038112160482, 6.1637997];
     const cathedrale = [49.1202, 6.1757];
 
