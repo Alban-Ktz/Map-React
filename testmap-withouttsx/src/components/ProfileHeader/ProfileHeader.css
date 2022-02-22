@@ -1,0 +1,49 @@
+.profilHeader {
+  background: linear-gradient(279.2deg, #4776e6 2.22%, #8e54e9 69.85%);
+  border-radius: 0px 0px 25px 25px;
+  height: 22vh;
+}
+
+.profil {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.profilTitle {
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profilImage {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 62.5px;
+  position: relative;
+  top: 5vh;
+  border: 3px solid;
+  border-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.profilIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.profilItems {
+  display: flex;
+  margin-top: 25%;
+}
+.profilText {
+  margin-top: 5%;
+  margin-left: 10%;
+}
