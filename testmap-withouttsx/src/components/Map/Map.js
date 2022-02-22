@@ -28,6 +28,8 @@ class Map extends React.Component {
           </Popup>
         </Marker>
       </MapContainer>
+      
+
     );
   }
 }
