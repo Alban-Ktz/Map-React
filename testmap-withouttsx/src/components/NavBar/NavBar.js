@@ -11,7 +11,7 @@ export default class NavBar extends Component {
     return (
       <div className="navBar">
           <ul>
-              <Link to="/MapPage"><li><img className = "navIcon" src={mapIcon} alt=""/></li></Link>
+              <Link to="/"><li><img className = "navIcon" src={mapIcon} alt=""/></li></Link>
               <Link to="/ProfilePage"><li><img className = "navIcon" src={profileIcon} alt=""/></li></Link>
               <Link to="/SuccessPage"><li><img className = "navIcon" src={trophyIcon} alt=""/></li></Link>
           </ul>

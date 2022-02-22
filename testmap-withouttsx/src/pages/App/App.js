@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route path="/MapPage" element={<MapPage />}/>
+        <Route path="/" element={<MapPage />}/>
         <Route path="/SuccessPage" element={<SuccessPage />}/>
         <Route path="/ProfilePage" element={<ProfilePage />}/>
       </Routes>
