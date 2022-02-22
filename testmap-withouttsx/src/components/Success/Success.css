@@ -1,0 +1,22 @@
+h2 {
+  font-size: 24;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.successBox {
+  width: 80%;
+  margin: 10% auto 0 auto;
+}
+
+.success {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separator {
+  width: 85%;
+  height: 2px;
+  background-color: #c7c7c7;
+  margin: 15px auto 0 auto;
+}
