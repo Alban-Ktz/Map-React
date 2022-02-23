@@ -23,7 +23,6 @@ class Map extends React.Component {
         />
 
         {datalieux.map((lieux) => (
-<<<<<<< HEAD
           <Marqueur
             type={lieux.type_lieux}
             key={lieux.id}
@@ -31,16 +30,8 @@ class Map extends React.Component {
             nom={lieux.nom_lieux}
             des={lieux.description}
             tel={lieux.numero_telephone}
-            icon={""}
-=======
-          <Marqueur key={lieux.id} 
-          position={[lieux.longitude, lieux.latitude]}
-          nom={lieux.nom_lieux}
-          des={lieux.description}
-          tel={lieux.numero_telephone}
-          adress={lieux.adresse}
-          image={lieux.image}
->>>>>>> 095caa2bd0db6d74ebcf4d4a79cda7ee64d98e20
+            adress={lieux.adresse}
+            image={lieux.image}
           />
         ))}
       </MapContainer>

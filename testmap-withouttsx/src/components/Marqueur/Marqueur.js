@@ -34,7 +34,7 @@ function Marqueur(props) {
       //icon={checkIcon()}
     >
       <Popup>
-        <img src={props.image} alt="PAS IMAGE" />
+        <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
         <h2>{props.nom}</h2>
         <p>{props.des}</p>
         <p>{checkPhone()}</p>
