@@ -2,6 +2,7 @@ import React from "react";
 import "./Map.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Marqueur from "../Marqueur/Marqueur";
+import UserMarqueur from "../UserMarqueur/UserMarqueur";
 
 class Map extends React.Component {
   render() {
@@ -13,15 +14,24 @@ class Map extends React.Component {
     const user = [49.11996, 6.16326];
 
     return (
-      <MapContainer center={position} zoom={15} scrollWheelZoom={true}>
+      <MapContainer
+        center={position}
+        zoom={15}
+        scrollWheelZoom={true}
+        zoomControl={false}
+      >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
-        <Marqueur position={cathedrale} nom={"La cathédrale Saint-Étienne de Metz"} des={"Dont les premières édifications datent du 13ème siècle, est l’église-mère du diocèse et l’un des monuments de la ville les plus visités. La luminosité toute particulière, qui rend cet édifice si singulier, sera à l’origine de son surnom de “Lanterne du Bon Dieu“."}/>
-        <Marqueur position={user} nom={"Vous êtes ici !"} des={""}/>
-
+        <Marqueur
+          position={cathedrale}
+          nom={"La cathédrale Saint-Étienne de Metz"}
+          des={
+            "Dont les premières édifications datent du 13ème siècle, est l’église-mère du diocèse et l’un des monuments de la ville les plus visités. La luminosité toute particulière, qui rend cet édifice si singulier, sera à l’origine de son surnom de “Lanterne du Bon Dieu“."
+          }
+        />
+        <Marqueur position={user} nom={"Vous êtes ici !"} des={""} />
         <Marqueur
           position={arsenal}
           nom={"L'Arsenal Ney"}
