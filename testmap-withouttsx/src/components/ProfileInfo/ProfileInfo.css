@@ -1,6 +1,7 @@
 .profileInfo {
     display: flex;
     align-items: center;
+    padding-top: 40px;
 }
 
 .profileInfoData {

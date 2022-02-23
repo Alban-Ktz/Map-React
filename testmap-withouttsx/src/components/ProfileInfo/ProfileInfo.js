@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import "./ProfileInfo.css"
-import controllerIcon from "./images/controllerIcon.svg";
-import mailIcon from "./images/mailIcon.svg";
-import passwordIcon from "./images/passwordIcon.svg";
 
 import Separator from '../Separator/Separator'
 
@@ -12,8 +9,8 @@ export default class extends Component {
             <>
                 <div className="profileInfo">
                     <div className="profileInfoData">
-                        <img src={controllerIcon} alt="" />
-                        <span>{"Pseudo"}</span>
+                        <img src={this.props.icon} alt="" />
+                        <span>{this.props.field}</span>
                     </div>
                 </div>
                 <Separator />
