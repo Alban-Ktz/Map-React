@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import successImg from "./successImg.png";
 import checkIcon from "./checkIcon.svg";
+import Separator from "../Separator/Separator"
 import "./Success.css"
 
 export default class Success extends Component {
@@ -15,7 +16,7 @@ export default class Success extends Component {
                     </div>
                     <img className="checkIcon" src={checkIcon}/>
                 </div>
-                <div className="separator"></div>
+                <Separator/>
             </div>
         )
     }
