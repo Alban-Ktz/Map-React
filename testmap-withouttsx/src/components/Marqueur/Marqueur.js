@@ -6,9 +6,9 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 
 function Marqueur(props) {
   return (
-    <Marker position={props.position}>
+    <Marker className="marqueur" position={props.position}>
       <Popup>
-        <h1>{props.nom}</h1>
+        <h2>{props.nom}</h2>
         <p>{props.des}</p>
       </Popup>
     </Marker>
