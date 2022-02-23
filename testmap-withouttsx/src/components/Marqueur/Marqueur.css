@@ -1,9 +1,16 @@
-.marqueur h2{
-    color:black;
+.marqueur h2 {
+  color: black;
 }
 
+<<<<<<< HEAD
 .marqueurImage {
     display: block;
     max-width: 90%;
     margin: 0 auto;
 }
+=======
+.image-lieux {
+  width: 100%;
+  border-radius: 5px;
+}
+>>>>>>> 745105eb58a0e4ad3c5e0e8b8097fbc4886d8ad9

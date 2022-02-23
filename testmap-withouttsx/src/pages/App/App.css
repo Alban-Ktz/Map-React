@@ -7,15 +7,21 @@ input:focus {
   outline: none;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
 }
 
+.app {
+  font-family: "Roboto", sans-serif;
+}
+
 h1 {
   font-style: normal;
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 36px;
   line-height: 42px;
+  font-family: Poppins !important;
   color: #ffffff;
 }
 

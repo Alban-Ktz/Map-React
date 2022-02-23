@@ -19,7 +19,7 @@
     "adresse": "4 Place de la Com\u00e9die, 57000 Metz",
     "longitude": "49.12154",
     "latitude": "6.17289",
-    "image": "./data/resto.jpeg"
+    "image": "https://www.petit-patrimoine.com/photos_pp/photo_pp_final/thumbs/sem_2015_1/57463_64_photo2_g.jpg"
   },
   {
     "id_lieux": "4",
@@ -29,7 +29,8 @@
     "numero_telephone": "144781233",
     "adresse": "Place Georges Pompidou, 75004 Paris",
     "longitude": "48.86065",
-    "latitude": "2.35198"
+    "latitude": "2.35198",
+    "image": "https://magazine.bellesdemeures.com/sites/default/files/article/image/centre_pompidou-metz_vue_exterieure_de_nuit.jpg"
   },
   {
     "id_lieux": "5",
@@ -39,7 +40,8 @@
     "numero_telephone": "892353535",
     "adresse": "1 Place du G\u00e9n\u00e9ral de Gaulle, 57000 Metz",
     "longitude": "49.10998",
-    "latitude": "6.17687"
+    "latitude": "6.17687",
+    "image": "https://www.tourisme-lorraine.fr/sitlorimg/1920/0/aHR0cHM6Ly93d3cuc2l0bG9yLmZyL3Bob3Rvcy84MzgvODM4MTQwMTU5XzguanBn.jpg"
   },
   {
     "id_lieux": "6",
@@ -49,7 +51,8 @@
     "numero_telephone": "387201320",
     "adresse": "2 Rue du Haut Poirier, 57000 Metz",
     "longitude": "49.12129",
-    "latitude": "6.17852"
+    "latitude": "6.17852",
+    "image": "https://metz.fr/projets/images/musee01.jpg"
   },
   {
     "id_lieux": "7",
@@ -59,7 +62,8 @@
     "numero_telephone": "387555400",
     "adresse": "En Contrebas De L'esplanade BD Poincar\u00e9, 57000 Metz",
     "longitude": "49.11559",
-    "latitude": "6.1651"
+    "latitude": "6.1651",
+    "image": "https://www.le-lorrain.fr/files/uploads/2015/08/plan-d-eau-metz.jpg"
   },
   {
     "id_lieux": "8",
@@ -69,7 +73,8 @@
     "numero_telephone": "800891891",
     "adresse": "4 PL Saint-Vincent, 57000 Metz",
     "longitude": "49.12369",
-    "latitude": "6.17267"
+    "latitude": "6.17267",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Basilique_Saint-Vincent.JPG"
   },
   {
     "id_lieux": "9",
@@ -79,7 +84,8 @@
     "numero_telephone": "800891891",
     "adresse": "Boulevard Andr\u00e9 Maginot, 57000 Metz",
     "longitude": "49.11778",
-    "latitude": "6.18521"
+    "latitude": "6.18521",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Metz_Porte_des_Allemands_R04.jpg"
   },
   {
     "id_lieux": "10",
@@ -89,7 +95,8 @@
     "numero_telephone": "387189096",
     "adresse": "14 PL d Armes Jean Fran\u00e7ois Blondel, 57000 57000",
     "longitude": "49.1197",
-    "latitude": "6.17586"
+    "latitude": "6.17586",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Place_d%27armes_%C3%A0_Metz.jpg"
   },
   {
     "id_lieux": "11",
@@ -99,7 +106,8 @@
     "numero_telephone": "387390000",
     "adresse": "21 Avenue Robert Schuman, 57000 Metz",
     "longitude": "49.11259",
-    "latitude": "6.17107"
+    "latitude": "6.17107",
+    "image": "https://files.structurae.net/files/photos/64/metz_porte_serpenoise/dscf0040.jpg"
   },
   {
     "id_lieux": "12",
@@ -109,7 +117,8 @@
     "numero_telephone": "387399200",
     "adresse": "3 AV Ney, 57000 Metz",
     "longitude": "49.1145",
-    "latitude": "6.17091"
+    "latitude": "6.17091",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Metz_Arsenal.JPG/1200px-Metz_Arsenal.JPG"
   },
   {
     "id_lieux": "13",
@@ -119,7 +128,8 @@
     "numero_telephone": "387751341",
     "adresse": "PL Saint-Jacques, 57000 Metz",
     "longitude": "49.1184",
-    "latitude": "6.17623"
+    "latitude": "6.17623",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/87/12/d4/place-st-jacques.jpg"
   },
   {
     "id_lieux": "14",
@@ -129,6 +139,7 @@
     "numero_telephone": "",
     "adresse": "PL de la R\u00e9publique, 57000 Metz",
     "longitude": "49.115",
-    "latitude": "6.17263"
+    "latitude": "6.17263",
+    "image": "https://www.leparisien.fr/resizer/aXMubuhfNrJ9qzojQXerleZyQfs=/932x582/filters:focal(1825x415:1835x425)/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/VOJPBRQX25CSDPKGX7IIJN3PJ4.jpg"
   }
 ]

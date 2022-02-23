@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
-import "./GoToMapBtn.css"
+import React, { Component } from "react";
+import "./GoToMapBtn.css";
 import backIcon from "./backIcon.svg";
 
 import { Link } from "react-router-dom";
 export default class GoToMapBtn extends Component {
-    render() {
-        return (
-            <Link to="/">
-                <btn>
-                    <img src={backIcon} alt="" />
-                </btn>
-            </Link>
-        )
-    }
+  render() {
+    return (
+      <Link to="/">
+        <btn>
+          <img src={backIcon} alt="" />
+        </btn>
+      </Link>
+    );
+  }
 }
