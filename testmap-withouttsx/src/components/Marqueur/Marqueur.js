@@ -11,11 +11,20 @@ function Marqueur(props) {
     }
   }
 
+  function checkIcon() {
+    if (props.type.textContent === "touristique") {
+      return "touristique";
+    } else {
+      return;
+    }
+  }
+
   return (
     <Marker
       className={"marqueur" + props.type_lieux}
       key={props.key}
       position={props.position}
+      //icon={checkIcon()}
     >
       <Popup>
         <h2>{props.nom}</h2>
