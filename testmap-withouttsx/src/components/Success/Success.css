@@ -9,14 +9,20 @@ h2 {
   margin: 10% auto 0 auto;
 }
 
-.success {
-    display: flex;
-    justify-content: space-between;
+.successInfos h2 {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-.separator {
-  width: 85%;
-  height: 2px;
-  background-color: #c7c7c7;
-  margin: 15px auto 0 auto;
+.successInfos p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.success {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

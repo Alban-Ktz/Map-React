@@ -7,11 +7,6 @@ import UserMarqueur from "../UserMarqueur/UserMarqueur";
 class Map extends React.Component {
   render() {
     const position = [49.12038112160482, 6.1637997];
-    const cathedrale = [49.1202, 6.1757];
-    const arsenal = [49.11457, 6.1708];
-    const stlouis = [49.11661, 6.17893];
-    const stjack = [49.11859, 6.17593];
-    const user = [49.11996, 6.16326];
 
     return (
       <MapContainer
@@ -24,6 +19,7 @@ class Map extends React.Component {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+
         <Marqueur
           position={cathedrale}
           nom={"La cathédrale Saint-Étienne de Metz"}
@@ -56,6 +52,16 @@ class Map extends React.Component {
           nom={"Place St Louis"}
           des={"Une des nombreuses places très connus de Metz !"}
         />
+
+        {datalieux.map((lieux) => (
+          <Marqueur
+            key={lieux.id}
+            position={[lieux.longitude, lieux.latitude]}
+            nom={lieux.nom_lieux}
+            des={lieux.description}
+            tel={lieux.numero_telephone}
+          />
+        ))}
       </MapContainer>
     );
   }

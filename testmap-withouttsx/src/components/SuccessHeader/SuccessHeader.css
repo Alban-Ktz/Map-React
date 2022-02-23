@@ -1,12 +1,12 @@
 .successHeader {
   background: linear-gradient(279.2deg, #4776e6 2.22%, #8e54e9 69.85%);
   border-radius: 0px 0px 25px 25px;
-  min-height: 20vh;
+  height: 22vh;
 }
 
 .boxSuccess {
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 50px;
   width: fit-content;
 }
 
@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .counter {

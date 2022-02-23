@@ -1,15 +1,19 @@
 html {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
 }
 
 input:focus {
   outline: none;
 }
 
+<<<<<<< HEAD
 .app {
   font-family: "Roboto", sans-serif;
 }
 
+=======
+>>>>>>> 2373e160719c6c352b8694477ab95ffea123c5ec
 h1 {
   font-style: normal;
   font-weight: bold !important;
