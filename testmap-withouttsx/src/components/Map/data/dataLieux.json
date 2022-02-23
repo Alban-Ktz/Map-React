@@ -7,7 +7,8 @@
     "numero_telephone": "",
     "adresse": "2 Place de la Com\u00e9die, 57000 Metz",
     "longitude": "49.12076",
-    "latitude": "6.17225"
+    "latitude": "6.17225",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Temple_Neuf_de_Metz_und_Pont_des_Roches.jpg/800px-Temple_Neuf_de_Metz_und_Pont_des_Roches.jpg"
   },
   {
     "id_lieux": "3",
@@ -17,7 +18,8 @@
     "numero_telephone": "387156051",
     "adresse": "4 Place de la Com\u00e9die, 57000 Metz",
     "longitude": "49.12154",
-    "latitude": "6.17289"
+    "latitude": "6.17289",
+    "image": "./data/resto.jpeg"
   },
   {
     "id_lieux": "4",

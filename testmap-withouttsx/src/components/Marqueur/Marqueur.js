@@ -12,14 +12,25 @@ function Marqueur (props) {
       return "";
     }
   }
-  
+
+  function checkAdresse() {
+    if(props.adress.length > 0) {
+      return props.adress;
+    } else {
+      return "";
+    }
+  }
   return (
     
     <Marker className={"marqueur" + props.type_lieux} key={props.key} position={props.position}>
       <Popup>
+        <img src={props.image} alt="PAS IMAGE"/>
         <h2>{props.nom}</h2>
         <p>{props.des}</p>
         <p>{checkPhone()}</p>
+        <p>{checkAdresse()}</p>
+        
+
       </Popup>
     </Marker>
   );

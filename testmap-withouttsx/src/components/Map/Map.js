@@ -3,6 +3,7 @@ import "./Map.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import Marqueur from "../Marqueur/Marqueur";
 import datalieux from "./data/dataLieux.json";
+import image from "./data/jungle.jpg";
 
 class Map extends React.Component {
   render() {
@@ -21,6 +22,8 @@ class Map extends React.Component {
           nom={lieux.nom_lieux}
           des={lieux.description}
           tel={lieux.numero_telephone}
+          adress={lieux.adresse}
+          image={lieux.image}
           />
         ))}
 
