@@ -11,7 +11,7 @@ export default class ProfileHeader extends Component {
             <div className='profilHeader'>
                 <GoToMapBtn />
                 <div className="profil">
-                    <span className="profilTitle">KREBS Sasuke</span>
+                    <span className="profilTitle">Pseudo</span>
                     <img className="profilImage" src={sasuke}></img>
                 </div>
             </div>

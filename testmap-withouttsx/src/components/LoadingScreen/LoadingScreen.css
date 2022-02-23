@@ -1,0 +1,56 @@
+.loadingScreen {
+  width: 100vw;
+  height: 100vh;
+  top: 100%;
+  opacity: 0;
+  animation: load_up 2s forwards;
+  -webkit-animation: load_up 2s forwards;
+}
+
+#second {
+  width: 200px;
+  top: 100%;
+  opacity: 0;
+  animation: load_up_text 2s forwards;
+  -webkit-animation: load_up_text 2s forwards;
+}
+
+@keyframes load_up {
+  from {
+    opacity: 1;
+    top: 50%;
+  }
+  to {
+    opacity: 0;
+    top: -50%;
+  }
+}
+
+@-webkit-keyframes load_up {
+  from {
+    opacity: 1;
+    top: 50%;
+  }
+  to {
+    opacity: 0;
+    top: -50%;
+  }
+}
+
+@keyframes load_up_text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes load_up_text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
