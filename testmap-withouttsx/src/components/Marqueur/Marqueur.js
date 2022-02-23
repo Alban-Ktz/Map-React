@@ -24,7 +24,7 @@ function Marqueur (props) {
     
     <Marker className={"marqueur" + props.type_lieux} key={props.key} position={props.position}>
       <Popup>
-        <img src={props.image} alt="PAS IMAGE"/>
+        <img className="marqueurImage" src={props.image} alt="PAS IMAGE"/>
         <h2>{props.nom}</h2>
         <p>{props.des}</p>
         <p>{checkPhone()}</p>
