@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import MapPage from "../MapPage";
 import SuccessPage from "../SuccessPage";
@@ -15,7 +15,7 @@ function App() {
         <Route path="/SuccessPage" element={<SuccessPage />} />
         <Route path="/ProfilePage" element={<ProfilePage />} />
         <Route path="/SettingsPage" element={<SettingsPage />} />
-        <Route path="/LoginPage"  element={<LoginPage />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
       </Routes>
     </div>
   );

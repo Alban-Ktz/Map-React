@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.b2eec2d9.css",
-    "main.js": "./static/js/main.c9582e3c.js",
+    "main.css": "./static/css/main.340b5278.css",
+    "main.js": "./static/js/main.d98f7777.js",
     "static/media/eiffel.png": "./static/media/eiffel.9424517d5c41db37540d.png",
     "static/media/sasuke.jpg": "./static/media/sasuke.8af14f847b9c4e86b9d2.jpg",
     "static/media/transport.png": "./static/media/transport.9f06d34c8d0c78d1f56c.png",
+    "static/media/logo-graouly.png": "./static/media/logo-graouly.c123ee7665a35c6da00e.png",
     "static/media/beer.png": "./static/media/beer.03d13ad564a2b7f4a200.png",
     "static/media/trophySvg.svg": "./static/media/trophySvg.c3492e3cb3b415399849eed023b5dd4e.svg",
     "index.html": "./index.html",
     "static/media/trophyIcon.svg": "./static/media/trophyIcon.8303b52262d793626e5b2701e5f2ac04.svg",
+    "static/media/passwordIcon.svg": "./static/media/passwordIcon.761daf20fb237a8bfdf4c580c92763b4.svg",
     "static/media/mapIcon.svg": "./static/media/mapIcon.6951753bea990f0d36759ee2cfb50c13.svg",
+    "static/media/controllerIcon.svg": "./static/media/controllerIcon.5f3ae7a634b8cc68297919be45e311e3.svg",
     "static/media/profileIcon.svg": "./static/media/profileIcon.26bbfd11097ccf4cdb10e4899e5746eb.svg",
     "static/media/backIcon.svg": "./static/media/backIcon.b00715809a9231d932894abc21718dfa.svg",
+    "static/media/mailIcon.svg": "./static/media/mailIcon.80b98eb7c18eb9c5339c88042f92b14b.svg",
     "static/media/checkIcon.svg": "./static/media/checkIcon.f90d00f23a44dd71e64b51cffc61abec.svg",
-    "main.b2eec2d9.css.map": "./static/css/main.b2eec2d9.css.map",
-    "main.c9582e3c.js.map": "./static/js/main.c9582e3c.js.map"
+    "main.340b5278.css.map": "./static/css/main.340b5278.css.map",
+    "main.d98f7777.js.map": "./static/js/main.d98f7777.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2eec2d9.css",
-    "static/js/main.c9582e3c.js"
+    "static/css/main.340b5278.css",
+    "static/js/main.d98f7777.js"
   ]
 }
