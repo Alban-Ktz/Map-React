@@ -1,0 +1,145 @@
+[
+  {
+    "id_lieux": "2",
+    "nom_lieux": "Le temple neuf",
+    "type_lieux": "touristique",
+    "description": "Nouveau Temple protestant, est un \u00e9difice de culte r\u00e9form\u00e9 construit \u00e0 Metz, entre 1901 et 1905, durant la p\u00e9riode wilhelminienne. La paroisse est aujourd'hui membre de l'Union des \u00c9glises protestantes d'Alsace et de Lorraine.",
+    "numero_telephone": "",
+    "adresse": "2 Place de la Com\u00e9die, 57000 Metz",
+    "longitude": "49.12076",
+    "latitude": "6.17225",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Temple_Neuf_de_Metz_und_Pont_des_Roches.jpg/800px-Temple_Neuf_de_Metz_und_Pont_des_Roches.jpg"
+  },
+  {
+    "id_lieux": "3",
+    "nom_lieux": "\r\nL\u2019h\u00f4tel des spectacles",
+    "type_lieux": "touristique",
+    "description": "Le b\u00e2timent est construit de 1738 \u00e0 1752 dans un style classique, d\u2019influence toscane, en m\u00eame temps que l\u2019h\u00f4tel de l\u2019Intendance",
+    "numero_telephone": "387156051",
+    "adresse": "4 Place de la Com\u00e9die, 57000 Metz",
+    "longitude": "49.12154",
+    "latitude": "6.17289",
+    "image": "https://www.petit-patrimoine.com/photos_pp/photo_pp_final/thumbs/sem_2015_1/57463_64_photo2_g.jpg"
+  },
+  {
+    "id_lieux": "4",
+    "nom_lieux": "Le centre national d\u2019art et de culture Georges-Pompidou",
+    "type_lieux": "touristique",
+    "description": "est un \u00e9tablissement pluridisciplinaire n\u00e9 de la volont\u00e9 du pr\u00e9sident Georges Pompidou, grand amateur d'art moderne, de cr\u00e9er au c\u0153ur de Paris une institution culturelle originale enti\u00e8rement vou\u00e9e \u00e0 la cr\u00e9ation moderne et contemporaine ",
+    "numero_telephone": "144781233",
+    "adresse": "Place Georges Pompidou, 75004 Paris",
+    "longitude": "48.86065",
+    "latitude": "2.35198",
+    "image": "https://magazine.bellesdemeures.com/sites/default/files/article/image/centre_pompidou-metz_vue_exterieure_de_nuit.jpg"
+  },
+  {
+    "id_lieux": "5",
+    "nom_lieux": "Gare",
+    "type_lieux": "transport",
+    "description": "La gare de Metz-Ville est une gare ferroviaire fran\u00e7aise, construite durant la premi\u00e8re annexion allemande de l'Alsace et de la Moselle, la gare est inaugur\u00e9e en 1908 par la Direction g\u00e9n\u00e9rale imp\u00e9riale des chemins de fer d'Alsace-Lorraine.",
+    "numero_telephone": "892353535",
+    "adresse": "1 Place du G\u00e9n\u00e9ral de Gaulle, 57000 Metz",
+    "longitude": "49.10998",
+    "latitude": "6.17687",
+    "image": "https://www.tourisme-lorraine.fr/sitlorimg/1920/0/aHR0cHM6Ly93d3cuc2l0bG9yLmZyL3Bob3Rvcy84MzgvODM4MTQwMTU5XzguanBn.jpg"
+  },
+  {
+    "id_lieux": "6",
+    "nom_lieux": "Le mus\u00e9e de La Cour d\u2019Or ",
+    "type_lieux": "touristique",
+    "description": "est un mus\u00e9e d\u2019art et d\u2019histoire situ\u00e9 au centre de Metz. Fond\u00e9 en 1839, l'ensemble des collections mus\u00e9ales fut baptis\u00e9 mus\u00e9e de La Cour d\u2019Or en 1988, en r\u00e9f\u00e9rence au palais des rois d\u2019Austrasie.",
+    "numero_telephone": "387201320",
+    "adresse": "2 Rue du Haut Poirier, 57000 Metz",
+    "longitude": "49.12129",
+    "latitude": "6.17852",
+    "image": "https://metz.fr/projets/images/musee01.jpg"
+  },
+  {
+    "id_lieux": "7",
+    "nom_lieux": "Le plan d\u2019eau de Metz",
+    "type_lieux": "touristique",
+    "description": "plan d\u2019eau du Saulcy, le plus souvent simplement Plan d\u2019eau, constitue un des plus importants espaces verts de l\u2019agglom\u00e9ration malgr\u00e9 son \u00e9tendue modeste compar\u00e9e au parc de la Seille.",
+    "numero_telephone": "387555400",
+    "adresse": "En Contrebas De L'esplanade BD Poincar\u00e9, 57000 Metz",
+    "longitude": "49.11559",
+    "latitude": "6.1651",
+    "image": "https://www.le-lorrain.fr/files/uploads/2015/08/plan-d-eau-metz.jpg"
+  },
+  {
+    "id_lieux": "8",
+    "nom_lieux": "La basilique Saint-Vincent ",
+    "type_lieux": "touristique",
+    "description": "est un \u00e9difice construit \u00e0 Metz \u00e0 partir de 1248 par l'abb\u00e9 Warin pour le culte catholique. Elle a \u00e9t\u00e9 consacr\u00e9e en 1376 par l'\u00e9v\u00eaque Thierry de Boppard. Class\u00e9e monument historique en 1930.",
+    "numero_telephone": "800891891",
+    "adresse": "4 PL Saint-Vincent, 57000 Metz",
+    "longitude": "49.12369",
+    "latitude": "6.17267",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Basilique_Saint-Vincent.JPG"
+  },
+  {
+    "id_lieux": "9",
+    "nom_lieux": "La porte des Allemands",
+    "type_lieux": "touristique",
+    "description": "est une porte de ville fortifi\u00e9e \u00e0 l\u2019est de Metz. Elle sert de pont sur la Seille du XIIIe si\u00e8cle au d\u00e9but du XXe si\u00e8cle. ",
+    "numero_telephone": "800891891",
+    "adresse": "Boulevard Andr\u00e9 Maginot, 57000 Metz",
+    "longitude": "49.11778",
+    "latitude": "6.18521",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Metz_Porte_des_Allemands_R04.jpg"
+  },
+  {
+    "id_lieux": "10",
+    "nom_lieux": "La place des Armes",
+    "type_lieux": "touristique",
+    "description": "Elle constitue la pi\u00e8ce majeure d\u2019un am\u00e9nagement urbain caract\u00e9ristique du XVIIIe si\u00e8cle souhait\u00e9 par le mar\u00e9chal Belle-Isle et son successeur le mar\u00e9chal d\u2019Estr\u00e9es, con\u00e7ue par Jacques-Fran\u00e7ois Blondel",
+    "numero_telephone": "387189096",
+    "adresse": "14 PL d Armes Jean Fran\u00e7ois Blondel, 57000 57000",
+    "longitude": "49.1197",
+    "latitude": "6.17586",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Place_d%27armes_%C3%A0_Metz.jpg"
+  },
+  {
+    "id_lieux": "11",
+    "nom_lieux": "La porte Serpenoise",
+    "type_lieux": "touristique",
+    "description": "est une porte symbolique associ\u00e9 \u00e0 plusieurs \u00e9v\u00e9nements historiques de la ville de Metz, dont elle a marqu\u00e9 la limite sud du IIIe si\u00e8cle lors de la construction du rempart romain, jusqu\u2019au d\u00e9but du XXe si\u00e8cle au moment de la destruction de l\u2019enceinte.",
+    "numero_telephone": "387390000",
+    "adresse": "21 Avenue Robert Schuman, 57000 Metz",
+    "longitude": "49.11259",
+    "latitude": "6.17107",
+    "image": "https://files.structurae.net/files/photos/64/metz_porte_serpenoise/dscf0040.jpg"
+  },
+  {
+    "id_lieux": "12",
+    "nom_lieux": "Arsenal",
+    "type_lieux": "touristique",
+    "description": "\u00e9tait un b\u00e2timent militaire destin\u00e9 au stockage des armes et des munitions de la garnison messine. Aujourd\u2019hui, essentiellement consacr\u00e9 \u00e0 la musique \u00ab classique \u00bb et \u00e0 la danse contemporaine, o\u00f9 de nombreux r\u00e9citals et concerts sont repr\u00e9sent\u00e9s.",
+    "numero_telephone": "387399200",
+    "adresse": "3 AV Ney, 57000 Metz",
+    "longitude": "49.1145",
+    "latitude": "6.17091",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Metz_Arsenal.JPG/1200px-Metz_Arsenal.JPG"
+  },
+  {
+    "id_lieux": "13",
+    "nom_lieux": "La place Saint-Jacques ",
+    "type_lieux": "touristique",
+    "description": "se situe entre les rues Fabert et de Ladoucette, au c\u0153ur du centre historique et pi\u00e9tonnier de la ville, non loin de la cath\u00e9drale Saint-\u00c9tienne.",
+    "numero_telephone": "387751341",
+    "adresse": "PL Saint-Jacques, 57000 Metz",
+    "longitude": "49.1184",
+    "latitude": "6.17623",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/87/12/d4/place-st-jacques.jpg"
+  },
+  {
+    "id_lieux": "14",
+    "nom_lieux": "La place de la R\u00e9publique",
+    "type_lieux": "touristique",
+    "description": "PL de la R\u00e9publique, 57000 Metz",
+    "numero_telephone": "",
+    "adresse": "PL de la R\u00e9publique, 57000 Metz",
+    "longitude": "49.115",
+    "latitude": "6.17263",
+    "image": "https://www.leparisien.fr/resizer/aXMubuhfNrJ9qzojQXerleZyQfs=/932x582/filters:focal(1825x415:1835x425)/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/VOJPBRQX25CSDPKGX7IIJN3PJ4.jpg"
+  }
+]

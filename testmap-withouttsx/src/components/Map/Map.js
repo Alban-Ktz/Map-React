@@ -1,6 +1,6 @@
 import React from "react";
 import "./Map.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer } from "react-leaflet";
 import Marqueur from "../Marqueur/Marqueur";
 import UserMarqueur from "../UserMarqueur/UserMarqueur";
 import datalieux from "./data/dataLieux.json";
@@ -9,6 +9,10 @@ import image from "./data/jungle.jpg";
 class Map extends React.Component {
   render() {
     const position = [49.12038112160482, 6.1637997];
+
+    function test() {
+      datalieux.map((lieux) => console.log(lieux.type_lieux));
+    }
 
     return (
       <MapContainer
@@ -32,6 +36,7 @@ class Map extends React.Component {
             tel={lieux.numero_telephone}
             adress={lieux.adresse}
             image={lieux.image}
+            icon={lieux.type_lieux}
           />
         ))}
       </MapContainer>
