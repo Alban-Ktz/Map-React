@@ -1,6 +1,10 @@
 import React from "react";
 import "./Marqueur.css";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import {Marker, Popup } from "react-leaflet";
+import touristiqueImage from "../Map/data/jungle.jpg";
+import restaurantImage from "../Map/data/resto.jpeg";
+import L from "leaflet";
+
 
 function Marqueur(props) {
   function checkPhone() {
@@ -11,27 +15,39 @@ function Marqueur(props) {
     }
   }
 
-  function checkIcon() {
-    if (props.type.textContent === "touristique") {
-      return "touristique";
-    } else {
-      return;
-    }
-  }
-
   function checkAdresse() {
     if (props.adress.length > 0) {
+
       return props.adress;
     } else {
       return "";
     }
   }
+
+  function changeIcon() {
+    if(props.type === "transport") {
+      const touristique = new L.icon({
+        iconUrl: touristiqueImage,
+        iconSize: [25, 41],
+        iconAnchor: [13, 0],
+      });
+      return touristique;
+    } else {
+      const resto = new L.icon({
+        iconUrl: restaurantImage,
+        iconSize: [25, 41],
+        iconAnchor: [13, 0],
+      });
+      return resto;
+    }
+  }
+
   return (
     <Marker
       className={"marqueur" + props.type_lieux}
       key={props.key}
       position={props.position}
-      //icon={checkIcon()}
+      icon={changeIcon()}
     >
       <Popup>
         <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
