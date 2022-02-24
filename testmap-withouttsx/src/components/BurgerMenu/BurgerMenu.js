@@ -12,6 +12,7 @@ function Burger() {
     const handleShowLinks = () => {
         setShowLinks(!showLinks)
     }
+    
     return (
         <nav className={`burgerMenu ${showLinks ? "show_nav" : ""} `}>
             <ul className='burgerMenu_links'>
@@ -21,7 +22,7 @@ function Burger() {
                     <div className='burgerMenu_link'>
                         <img className='img_all' src={plateIcon} alt="rip" /> 
                         <span>Restaurants</span> 
-                        <input type='checkbox' className="checkbox1"/>
+                        <input type='checkbox' className="checkbox1" value="restaurant"/>
                     </div>
                 </li>
 
