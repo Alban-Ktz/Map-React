@@ -1,0 +1,25 @@
+.image img{
+    width: 50vh;
+    margin: 0 auto;
+}
+.image{
+    margin: 0 auto;
+}
+
+
+.formulaire{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    max-width: 100vh;
+}
+
+.login-tout{
+    display:flex ;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.login{
+    padding-top: 5vh;
+}
