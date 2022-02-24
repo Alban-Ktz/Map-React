@@ -34,6 +34,9 @@ class Map extends React.Component {
             image={lieux.image}
           />
         ))}
+
+        <UserMarqueur />
+
       </MapContainer>
     );
   }

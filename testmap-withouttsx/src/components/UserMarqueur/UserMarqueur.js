@@ -1,25 +1,33 @@
-import React from "react";
 import "./UserMarqueur.css";
-import { Marker } from "react-leaflet";
+import React, { useState, useEffect } from "react";
+import { Marker, Popup, } from "react-leaflet";
 
 function UserMarqueur() {
-  const watcher = navigator.geolocation.watchPosition(displayLocationInfo);
 
-  // setTimeout(() => {
-  //   navigator.geolocation.clearWatch(watcher);
-  // }, 35000);
+  
+  const [userLat, setUserLat] = useState(false);
+  const [userLong, setUserLong] = useState(false);
 
-  function displayLocationInfo(position) {
-    const lng = position.coords.longitude;
-    const lat = position.coords.latitude;
-    const pos = [lng, lat];
-    return pos;
-  }
+  useEffect(() => {
+    const interval = setInterval(() => {
 
-  const userPosition = displayLocationInfo();
-  console.log(userPosition);
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          setUserLat(position.coords.latitude);
+          setUserLong(position.coords.longitude);
+        }
+      );
+    }, 1500);
+    return () => clearInterval(interval);
+  }, []);
 
-  //return <Marker position={userPosition}></Marker>;
+  return (
+    <Marker position={[userLat, userLong]}>
+      <Popup>
+        You are here. <br />
+      </Popup>
+    </Marker>
+  );
 }
 
 export default UserMarqueur;
