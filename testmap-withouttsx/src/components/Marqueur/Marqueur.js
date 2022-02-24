@@ -19,6 +19,7 @@ function Marqueur(props) {
 
   function checkAdresse() {
     if (props.adress.length > 0) {
+
       return props.adress;
     } else {
       return "";
@@ -42,7 +43,7 @@ function Marqueur(props) {
       return touriste;
     } else if(props.type === "bar"){
       const restobar = new L.icon({
-        iconUrl: touristique,
+        iconUrl: bar,
         iconSize: [30, 41],
         iconAnchor: [13, 0],
       });
