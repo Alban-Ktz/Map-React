@@ -5,6 +5,7 @@ import MapPage from "../MapPage";
 import SuccessPage from "../SuccessPage";
 import ProfilePage from "../ProfilePage";
 import SettingsPage from "../SettingsPage/SettingsPage";
+import LoginPage from "../LoginPage/LoginPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/SuccessPage" element={<SuccessPage />} />
         <Route path="/ProfilePage" element={<ProfilePage />} />
         <Route path="/SettingsPage" element={<SettingsPage />} />
+        <Route path="/LoginPage"  element={<LoginPage />} />
       </Routes>
     </div>
   );

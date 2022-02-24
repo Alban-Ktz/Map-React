@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./pages/App/App";
 import registerServiceWorker from "./registerServiceWorker";
-import LoginPage from "./pages/LoginPage/LoginPage";
 
 import { BrowserRouter } from "react-router-dom";
 

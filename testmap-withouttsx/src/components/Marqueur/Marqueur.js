@@ -1,8 +1,15 @@
 import React from "react";
 import "./Marqueur.css";
 import {Marker, Popup } from "react-leaflet";
+<<<<<<< HEAD
 import touristiqueImage from "../Map/data/jungle.jpg";
 import restaurantImage from "../Map/data/resto.jpeg";
+=======
+import touristique from "../../images/touristique.png";
+import gare from "../../images/transport.png";
+import bar from "../../images/bar.png";
+import restaurant from "../../images/restaurant.png";
+>>>>>>> ab99071fe39b5db316cff445df57e0672284fcb2
 import L from "leaflet";
 
 
@@ -26,6 +33,7 @@ function Marqueur(props) {
 
   function changeIcon() {
     if(props.type === "transport") {
+<<<<<<< HEAD
       const touristique = new L.icon({
         iconUrl: touristiqueImage,
         iconSize: [25, 41],
@@ -36,6 +44,32 @@ function Marqueur(props) {
       const resto = new L.icon({
         iconUrl: restaurantImage,
         iconSize: [25, 41],
+=======
+      const transport = new L.icon({
+        iconUrl: gare,
+        iconSize: [30, 41],
+        iconAnchor: [13, 0],
+      });
+      return transport;
+    } else if(props.type === "touristique"){
+      const touriste = new L.icon({
+        iconUrl: touristique,
+        iconSize: [30, 41],
+        iconAnchor: [13, 0],
+      });
+      return touriste;
+    } else if(props.type === "bar"){
+      const restobar = new L.icon({
+        iconUrl: touristique,
+        iconSize: [30, 41],
+        iconAnchor: [13, 0],
+      });
+      return restobar;
+    } else if(props.type === "resto"){
+      const resto = new L.icon({
+        iconUrl: restaurant,
+        iconSize: [30, 41],
+>>>>>>> ab99071fe39b5db316cff445df57e0672284fcb2
         iconAnchor: [13, 0],
       });
       return resto;
