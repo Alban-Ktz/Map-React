@@ -10,7 +10,7 @@ let startApp = () => {
   ReactDOM.render(
     <React.StrictMode>
       <BrowserRouter>
-        <App />
+        <LoginPage />
       </BrowserRouter>
     </React.StrictMode>,
     document.getElementById("root")
