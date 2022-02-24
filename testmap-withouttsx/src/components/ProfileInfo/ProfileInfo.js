@@ -11,6 +11,7 @@ export default class extends Component {
                     <div className="profileInfoData">
                         <img src={this.props.icon} alt="" />
                         <span>{this.props.field}</span>
+                        <input class="hidden" type="text"  value="PseudoDeLaBDD"></input>
                     </div>
                 </div>
                 <Separator />
