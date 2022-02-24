@@ -58,6 +58,7 @@ function Marqueur(props) {
   }
 
   return (
+    <div>
     <Marker
       className={"marqueur" + props.type_lieux}
       key={props.key}
@@ -66,12 +67,15 @@ function Marqueur(props) {
     >
       <Popup>
         <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
-        <h2>{props.nom}</h2>
-        <p>{props.des}</p>
-        <p>{checkPhone()}</p>
-        <p>{checkAdresse()}</p>
+        <h2 className="titre">{props.nom}</h2>
+        <div className="descbloc">
+          <p>{props.des}</p>
+          <p>{checkPhone()}</p>
+          <p>{checkAdresse()}</p>
+        </div>
       </Popup>
     </Marker>
+    </div>
   );
 }
 

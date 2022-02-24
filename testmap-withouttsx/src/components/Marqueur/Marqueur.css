@@ -1,8 +1,11 @@
-.marqueur h2 {
+.titre{
   color: black;
+  font-size : medium;
 }
 
 .image-lieux {
   width: 100%;
   border-radius: 5px;
 }
+
+
