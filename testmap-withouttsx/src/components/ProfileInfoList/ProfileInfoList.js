@@ -8,9 +8,9 @@ import { isEdited } from "../ProfileNav/ProfileNav.js"
 export default class ProfileInfoList extends Component {
   render() {
     let profileInfoData = {
-      username: "test",
-      email: "test",
-      password: "***"
+      username: "Pseudo",
+      email: "email@gmail.com",
+      password: "*******"
     }
 
     return (
