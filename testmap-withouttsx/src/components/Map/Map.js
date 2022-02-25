@@ -6,19 +6,12 @@ import UserMarqueur from "../UserMarqueur/UserMarqueur";
 import datalieux from "./data/dataLieux.json";
 
 class Map extends React.Component {
-<<<<<<< HEAD
 
-
-=======
->>>>>>> a2a5bb78ce2a75301c03ba2013ab540cd6605ed9
   render() {
     const position = [49.12038112160482, 6.1637997];
 
     return (
-<<<<<<< HEAD
 
-=======
->>>>>>> a2a5bb78ce2a75301c03ba2013ab540cd6605ed9
       <MapContainer
         center={position}
         zoom={15}
