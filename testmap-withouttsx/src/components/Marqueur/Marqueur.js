@@ -29,28 +29,24 @@ function Marqueur(props) {
       const transport = new L.icon({
         iconUrl: gare,
         iconSize: [30, 41],
-        iconAnchor: [13, 0],
       });
       return transport;
     } else if (props.type === "touristique") {
       const touriste = new L.icon({
         iconUrl: touristique,
         iconSize: [30, 41],
-        iconAnchor: [13, 0],
       });
       return touriste;
     } else if (props.type === "bar") {
       const restobar = new L.icon({
         iconUrl: bar,
         iconSize: [30, 41],
-        iconAnchor: [13, 0],
       });
       return restobar;
     } else if (props.type === "resto") {
       const resto = new L.icon({
         iconUrl: restaurant,
         iconSize: [30, 41],
-        iconAnchor: [13, 0],
       });
       return resto;
     }
@@ -64,16 +60,15 @@ function Marqueur(props) {
         position={props.position}
         icon={changeIcon()}
       >
-          <Popup>
-            <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
-            <h2 className="titre">{props.nom}</h2>
-            <div className="descbloc">
-              <p>{props.des}</p>
-              <p>{checkPhone()}</p>
-              <p>{checkAdresse()}</p>
-            </div>
-          </Popup>
-
+        <Popup>
+          <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
+          <h2 className="titre">{props.nom}</h2>
+          <div className="descbloc">
+            <p>{props.des}</p>
+            <p>{checkPhone()}</p>
+            <p>{checkAdresse()}</p>
+          </div>
+        </Popup>
       </Marker>
     </div>
   );
