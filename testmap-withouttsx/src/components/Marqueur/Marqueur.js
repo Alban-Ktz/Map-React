@@ -63,6 +63,7 @@ function Marqueur(props) {
         <Popup>
           <img class="image-lieux" src={props.image} alt="PAS IMAGE" />
           <h2 className="titre">{props.nom}</h2>
+          <hr width="80%" color="#C7C7C7"></hr>
           <div className="descbloc">
             <p>{props.des}</p>
             <p>{checkPhone()}</p>

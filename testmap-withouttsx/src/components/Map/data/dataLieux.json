@@ -284,5 +284,16 @@
     "longitude": "49.11989",
     "latitude": "6.16357",
     "image": "https://cdn-s-www.republicain-lorrain.fr/images/142F1D76-6396-4E79-9352-260398F127B8/NW_raw/le-voleur-s-etait-introduit-dans-les-locaux-sans-commettre-d-effraction-photo-archives-rl-gilles-wirtz-1461836389.jpg"
+  },
+  {
+    "id_lieux": "28",
+    "nom_lieux": "Cath\u00e9drale de Metz",
+    "type_lieux": "touristique",
+    "description": "La cathédrale Saint-Étienne de Metz est la cathédrale catholique du diocèse de Metz, dans le département français de la Moselle en région Grand Est.",
+    "numero_telephone": "03.87.75.54.61",
+    "adresse": "Pl. d'Armes, 57000 Metz",
+    "longitude": "49.12004",
+    "latitude": "6.17534",
+    "image": "https://i.la-croix.com/1400x933/smart/croire/2020/06/23/1701101377/cathedrale-St-Etienne-Metz_0.jpg"
   }
 ]

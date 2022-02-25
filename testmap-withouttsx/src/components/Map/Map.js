@@ -35,7 +35,6 @@ class Map extends React.Component {
         ))}
 
         <UserMarqueur />
-
       </MapContainer>
     );
   }

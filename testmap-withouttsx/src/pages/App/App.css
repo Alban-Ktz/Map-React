@@ -7,9 +7,13 @@ input:focus {
   outline: none;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto";
+  font-weight: 700;
 }
 
 .app {
@@ -21,8 +25,13 @@ h1 {
   font-weight: bold !important;
   font-size: 36px;
   line-height: 42px;
-  font-family: Poppins !important;
+  font-family: "Poppins" !important;
   color: #ffffff;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .hidden {
