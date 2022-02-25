@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.340b5278.css",
-    "main.js": "./static/js/main.d98f7777.js",
+    "main.css": "./static/css/main.e915ddb1.css",
+    "main.js": "./static/js/main.6083bfbd.js",
     "static/media/eiffel.png": "./static/media/eiffel.9424517d5c41db37540d.png",
     "static/media/sasuke.jpg": "./static/media/sasuke.8af14f847b9c4e86b9d2.jpg",
     "static/media/transport.png": "./static/media/transport.9f06d34c8d0c78d1f56c.png",
@@ -17,11 +17,11 @@
     "static/media/backIcon.svg": "./static/media/backIcon.b00715809a9231d932894abc21718dfa.svg",
     "static/media/mailIcon.svg": "./static/media/mailIcon.80b98eb7c18eb9c5339c88042f92b14b.svg",
     "static/media/checkIcon.svg": "./static/media/checkIcon.f90d00f23a44dd71e64b51cffc61abec.svg",
-    "main.340b5278.css.map": "./static/css/main.340b5278.css.map",
-    "main.d98f7777.js.map": "./static/js/main.d98f7777.js.map"
+    "main.e915ddb1.css.map": "./static/css/main.e915ddb1.css.map",
+    "main.6083bfbd.js.map": "./static/js/main.6083bfbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.340b5278.css",
-    "static/js/main.d98f7777.js"
+    "static/css/main.e915ddb1.css",
+    "static/js/main.6083bfbd.js"
   ]
 }
