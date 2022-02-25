@@ -1,12 +1,3 @@
-.leaflet-container{
-    width: 100vw;
-    height: 100vh;
-  }
-
-  .test h2{
-    color:black;
-}
-
 .burgerMenu {
   display: flex;
   align-items: center;
