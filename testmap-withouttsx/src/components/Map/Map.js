@@ -8,10 +8,8 @@ import datalieux from "./data/dataLieux.json";
 class Map extends React.Component {
   render() {
     const position = [49.12038112160482, 6.1637997];
-    
 
     return (
-     
       <MapContainer
         center={position}
         zoom={15}
@@ -35,7 +33,7 @@ class Map extends React.Component {
             image={lieux.image}
           />
         ))}
-        
+        <UserMarqueur />
       </MapContainer>
     );
   }

@@ -10,7 +10,7 @@ function UserMarqueur() {
     iconUrl: "https://www.shareicon.net/data/2017/05/22/886133_map_512x512.png",
     iconSize: [60, 75],
   });
-  
+
   useEffect(() => {
     const interval = setInterval(() => {
       navigator.geolocation.getCurrentPosition((position) => {
@@ -22,8 +22,7 @@ function UserMarqueur() {
   }, []);
 
   return (
-    <Marker position={[userLat, userLong]}  icon={userIcon}>
-      
+    <Marker position={[userLat, userLong]} icon={userIcon}>
       <Popup>
         You are here
         <br />
