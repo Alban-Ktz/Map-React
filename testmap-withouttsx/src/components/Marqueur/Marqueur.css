@@ -1,11 +1,11 @@
-.titre{
+.titre {
   color: black;
-  font-size : medium;
+  font-size: medium;
+  text-align: center;
 }
 
 .image-lieux {
-  width: 100%;
+  width: 300px;
+  height:200px;
   border-radius: 5px;
 }
-
-

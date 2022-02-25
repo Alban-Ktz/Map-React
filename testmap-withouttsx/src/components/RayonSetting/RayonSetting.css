@@ -1,0 +1,31 @@
+select {
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 2px solid currentcolor;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+}
+select:active {
+  outline: 0;
+}
+
+.RayonSetting {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.342) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.308) 0px 0px 0px 1px;
+  font-size: 1em;
+  margin: 5% 0 10% 0;
+  width: 80%;
+}
+
+.RayonText{
+    margin:5%;
+}
+
+#radius-select{
+    margin-top : 20%;
+}

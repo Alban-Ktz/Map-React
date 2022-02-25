@@ -1,11 +1,18 @@
-.vibrationSetting {
+.VibrationSetting {
   width: 80%;
+  display:flex;
+  background-color:#ffffff;
+  margin:19% 0 10% 0;
+  border-radius: 15px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.342) 0px 10px 36px 0px, rgba(0, 0, 0, 0.308) 0px 0px 0px 1px;
+  font-size: 1em;
+}
+.settingTag {
+  margin:5%;
+  margin-left:14%;
 }
 
-.vibrationSetting ul {
-  display: flex;
-  align-items: center;
-}
 
 .switch-vibration {
   position: relative;
@@ -18,6 +25,8 @@
   border-radius: 50px;
   box-shadow: inset -20px 0 0 0 #ffffff;
   transition-duration: 200ms;
+  margin-top:8px;
+  margin-left:50%;
 }
 
 .switch-vibration:after {

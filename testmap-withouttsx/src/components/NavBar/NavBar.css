@@ -28,3 +28,12 @@
 .navIcon {
   min-height: 24px;
 }
+
+#navIconMap {
+  background-color: #94A5FF;
+  padding:50%;
+  border-radius: 25px;
+  padding-right:95%;
+  padding-left:95%;
+
+}
