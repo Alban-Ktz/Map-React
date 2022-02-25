@@ -1,6 +1,7 @@
-.titre{
+.titre {
   color: black;
-  font-size : medium;
+  font-size: medium;
+  text-align: center;
 }
 
 .image-lieux {
@@ -8,5 +9,3 @@
   height:200px;
   border-radius: 5px;
 }
-
-

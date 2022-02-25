@@ -1,11 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
-    <description>Sample Apache Cordova App</description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
-    </author>
+    <name>Graoully Map</name>
+    <description>Application touristique de Metz</description>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+        <platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="./icon/ldpi.png" density="ldpi" />
+        <icon src="./icon/mdpi.png" density="mdpi" />
+        <icon src="./icon/hdpi.png" density="hdpi" />
+        <icon src="./icon/xhdpi.png" density="xhdpi" />
+        <icon src="./icon/xxhdpi.png" density="xxhdpi" />
+        <icon src="./icon/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
 </widget>

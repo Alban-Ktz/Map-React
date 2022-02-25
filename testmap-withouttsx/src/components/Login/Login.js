@@ -7,6 +7,7 @@ import bcrypt from 'bcryptjs';
 import MapPage from '../../pages/MapPage';
 import { Routes, Route } from "react-router-dom";
 
+
 function Login() {
     const [username,setUser] = useState('')
     const [password,setPwd] = useState('')
@@ -41,24 +42,27 @@ function Login() {
 
     return(
         <div className='formulaire'>
-            <div className="image">
-              <img src={logoGraouly} />
+            <div className="loadingScreen">
+                <div className="image">
+                <img src={logoGraouly} />
+                </div>
+                
+                <form className='login-tout' onSubmit={onSubmit}>
+                    <label className='login-pseudo'>
+                        <p className='label-all'>Pseudonyme</p>
+                        <input className='inputPseudo' type="text" id="email" onChange={onChangeUsername} value={username.value} required/>
+                    </label>
+                    <label className='login-password'>
+                        <p className='label-all'>Mot de passe </p>
+                        <input className='inputPassword' type="password"  id="password" onChange={onChangePwd} value={password.value} required/>
+                    </label>
+                    <div>
+                        <button className='submitButton' type="submit">Se Connecter</button>
+                    </div>
+                </form>
             </div>
-              
-          <form className='login-tout' onSubmit={onSubmit}>
-          <label className='login-pseudo'>
-              <p className='label-all'>Pseudonyme</p>
-              <input className='inputPseudo' type="text" id="email" onChange={onChangeUsername} value={username.value} required/>
-          </label>
-          <label className='login-password'>
-              <p className='label-all'>Mot de passe </p>
-              <input className='inputPassword' type="password"  id="password" onChange={onChangePwd} value={password.value} required/>
-          </label>
-          <div>
-          <button className='submitButton' type="submit" >Se Connecter</button>
-          </div>
-          </form>
       </div>
+      
     )
   }
 
