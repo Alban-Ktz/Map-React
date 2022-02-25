@@ -1,0 +1,53 @@
+.DarkmodSetting {
+    width: 80%;
+    display:flex;
+    background-color:#ffffff;
+    margin:5% 0 10% 0;
+    border-radius: 15px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.342) 0px 10px 36px 0px, rgba(0, 0, 0, 0.308) 0px 0px 0px 1px;
+    font-size: 1em;
+  }
+  .settingTag {
+    margin:5%;
+    margin-left:14%;
+  }
+  
+  
+  .switch-vibration {
+    position: relative;
+    appearance: none;
+    outline: none;
+    width: 50px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #d9dadc;
+    border-radius: 50px;
+    box-shadow: inset -20px 0 0 0 #ffffff;
+    transition-duration: 200ms;
+    margin-top:8px;
+    margin-left:50%;
+  }
+  
+  .switch-vibration:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .switch-vibration:checked {
+    border-color: #4ed164;
+    box-shadow: inset 20px 0 0 0 #4ed164;
+  }
+  
+  .switch-vibration:checked:after {
+    left: 20px;
+    box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
+  }
+  
