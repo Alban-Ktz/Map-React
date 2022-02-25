@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default class GoToMapBtn extends Component {
   render() {
     return (
-      <Link to="/">
+      <Link to="/MapPage">
         <btn>
           <img src={backIcon} alt="" />
         </btn>
