@@ -2,7 +2,7 @@ import "./App.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 import MapPage from "../MapPage";
-import SuccessPage from "../SuccessPage";
+import SuccessPage from "../SuccessPage/SuccessPage";
 import ProfilePage from "../ProfilePage";
 import SettingsPage from "../SettingsPage/SettingsPage";
 import LoginPage from "../LoginPage/LoginPage";

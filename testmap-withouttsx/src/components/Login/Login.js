@@ -11,7 +11,7 @@ import { Routes, Route } from "react-router-dom";
 function Login() {
     const [username,setUser] = useState('')
     const [password,setPwd] = useState('')
-    const [error,setError] = useState('');
+    const [enter,setEnter] = useState(false);
 
     const onChangePwd = (e) => {
         setPwd({
@@ -31,9 +31,9 @@ function Login() {
         userData.map( ( data) =>{
             if (bcrypt.compareSync(password.password, data.password) && username.username === data.username) {
                 console.log('true');
-                <Routes>
-                    <Route path="../../pages/MapPage" element={<MapPage />} />
-                </Routes>
+                setEnter({
+                    enter: true
+                })
             }
         }
         )
@@ -61,7 +61,9 @@ function Login() {
                     </div>
                 </form>
             </div>
+              
       </div>
+     
       
     )
   }

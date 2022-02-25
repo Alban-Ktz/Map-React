@@ -1,0 +1,134 @@
+.burgerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 60px;
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  height: 60px;
+  background: linear-gradient(
+    329.37deg,
+    #4776e6 10.02%,
+    #474de6 38.38%,
+    #8e54e9 64.7%
+  );
+  border-radius: 100px;
+  color: white;
+  z-index: 9999;
+}
+
+.burgerButton {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.burgerTitle {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.burgerMenu_links {
+  display: flex;
+}
+.burgerMenu_link {
+  padding: 0 0.3rem;
+  color: inherit;
+}
+
+.burgerMenu_links {
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  right: -100vw;
+  top: 0;
+  padding-bottom: 3vh;
+  align-items: center;
+  background: linear-gradient(
+    329.37deg,
+    #4776e6 10.02%,
+    #474de6 38.38%,
+    #8e54e9 64.7%
+  );
+  visibility: hidden;
+}
+.show_nav .burgerMenu_links {
+  right: 0;
+  width: 100vw;
+  visibility: visible;
+  height: 100vh;
+}
+.show_nav .burgerMenu {
+  background: white;
+}
+.burgerMenu_header {
+  color: white;
+  font-size: 10vw;
+}
+.burgerMenu_header2 {
+  color: white;
+  font-size: 10vw;
+  margin-bottom: 8vh;
+}
+.checkbox1 {
+  margin-left: 30%;
+}
+.checkbox2 {
+  margin-left: 10%;
+}
+.checkbox3 {
+  margin-left: 35%;
+}
+.checkbox4 {
+  margin-left: 56%;
+}
+.burgerMenu_link {
+  display: flex;
+  padding: 1.5rem;
+  font-size: 5vw;
+  color: black;
+  background: white;
+  margin-top: 5%;
+  width: 65vw;
+  border-radius: 16px;
+}
+.burgerMenu_link .img_all {
+  margin-right: 5%;
+  width: 40px;
+  height: 40px;
+}
+
+.burgerIcon,
+.burgerIcon::before,
+.burgerIcon::after {
+  display: block;
+  width: 40px;
+  height: 5px;
+  position: relative;
+  border-radius: 3px;
+  background: white;
+  transition: all 0.5s ease-in-out;
+}
+.burgerIcon::before,
+.burgerIcon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+.burgerIcon::before {
+  transform: translateY(-12px);
+}
+.burgerIcon::after {
+  transform: translateY(12px);
+}
+.show_nav .burgerIcon {
+  background: transparent;
+}
+.show_nav .burgerIcon::before {
+  transform: rotate(45deg);
+}
+.show_nav .burgerIcon::after {
+  transform: rotate(-45deg);
+}
