@@ -4,7 +4,6 @@ import './BurgerMenu.css';
 import BurgerMenu from "../components/BurgerMenu/BurgerMenu";
 import Map from "../components/Map/Map";
 import NavBar from "../components/NavBar/NavBar";
-import LoadingScreen from "../components/LoadingScreen/LoadingScreen";
 import plateIcon from './image/plate.png'
 import beerIcon from './image/beer.png'
 import eiffelIcon from './image/eiffel.png'
@@ -34,33 +33,35 @@ export default class MapPage extends Component {
 
   onChangeRes(e){
     this.setState({
-      checkedOne:e.target.value
+      checkedOne:!this.state.checkedOne
     });
   }
 
   onChangeTour(e){
     this.setState({
-      checkedTwo:e.target.value
+      checkedTwo:!this.state.checkedTwo
     });
   }
 
   onChangetrans(e){
     this.setState({
-      checkedThree:e.target.value
+      checkedThree:!this.state.checkedThree
     });
+    
   }
 
   onChangeBar(e){
     this.setState({
-      checkedFour:e.target.value
+      checkedFour:!this.state.checkedFour
     });
   }
   onClickLinks(e){
-    console.log(this.state.showLinks)
     this.setState({
       showLinks: !this.state.showLinks
     });
   }
+
+  
 
   render() {
     return (
@@ -73,7 +74,7 @@ export default class MapPage extends Component {
                         <div className='burgerMenu_link'>
                             <img className='img_all' src={plateIcon} alt="rip" /> 
                             <span>Restaurants</span> 
-                            <input type='checkbox' className="checkbox1" defaultChecked={this.state.checkedOne} onChange={this.onChangeRes}/>
+                            <input type='checkbox' className="checkbox1" defaultChecked={this.state.checkedOne} onClick={this.onChangeRes}/>
                         </div>
                     </li>
 
@@ -81,7 +82,7 @@ export default class MapPage extends Component {
                         <div className='burgerMenu_link'>
                             <img className='img_all' src={eiffelIcon} alt="rip" /> 
                             <span>Lieux touristiques</span> 
-                            <input type='checkbox' className="checkbox2" defaultChecked={this.state.checkedTwo} onChange={this.onChangeTour}/>
+                            <input type='checkbox' className="checkbox2" defaultChecked={this.state.checkedTwo} onClick={this.onChangeTour}/>
                         </div>
                     </li>
 
@@ -109,7 +110,8 @@ export default class MapPage extends Component {
         </nav>
         
         <NavBar />
-        <Map res={this.state.checkedOne} tour={this.checkedTwo} trans ={this.checkedThree}/>
+
+        <Map res={this.state.checkedOne} tour={this.state.checkedTwo} trans ={this.state.checkedThree} bars = {this.state.checkedFour}/>
       </div>
     )
   }

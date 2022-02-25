@@ -6,11 +6,12 @@ import UserMarqueur from "../UserMarqueur/UserMarqueur";
 import datalieux from "./data/dataLieux.json";
 
 class Map extends React.Component {
+  
+
   render() {
     const position = [49.12038112160482, 6.1637997];
-    const wantTour = true;
-    const wantRest = false;
     return (
+     
       <MapContainer
         center={position}
         zoom={15}
@@ -21,16 +22,20 @@ class Map extends React.Component {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-
+        
         {
         datalieux.map( lieux => {
-
-          if (wantTour === false && lieux.type_lieux === 'touristique') {
+          
+          if (this.props.tour === false && lieux.type_lieux === 'touristique') {
             return <></>
           
-            }else if (wantRest === false && lieux.type_lieux === 'transport') {
+            }else if (this.props.trans === false && lieux.type_lieux === 'transport') {
               return <></>
               
+            }else if(this.props.res === false && lieux.type_lieux === 'resto'){
+              return <></>
+            }else if(this.props.bars === false && lieux.type_lieux === 'bar'){
+              return <></>
             }else{
               return  (<Marqueur
                 type={lieux.type_lieux}

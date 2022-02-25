@@ -9,7 +9,7 @@
   width:100vw;
 }
 .image img{
-    width: 50vh;
+    width: 45vh;
     margin: 0 auto;
 }
 .image{
@@ -22,6 +22,7 @@
     justify-items: center;
     flex-direction: column;
     max-width: 100vh;
+    
 }
 
 .login-tout{
@@ -29,6 +30,7 @@
     flex-direction: column;
     margin: 0 auto;
     color:white;
+    
 }
 
 .login{
@@ -57,4 +59,61 @@
 }
 .label-all {
     margin-left:3vw;
+    justify-content: center;
 }
+.image,.login-tout {
+    opacity: 0;
+    animation: load_up_text 3s forwards;
+    -webkit-animation: load_up_text 3s forwards;
+}
+.loadingScreen {
+    width: 100vw;
+    opacity: 0;
+    animation: load_up 3s forwards;
+    -webkit-animation: load_up 3s forwards;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+@keyframes load_up {
+    from {
+      transform:translateY(100vh);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      
+    }
+  }
+  
+  @-webkit-keyframes load_up {
+    from {
+      opacity: 1;
+      top: 50%;
+    }
+    to {
+      opacity: 0;
+      top: -50%;
+    }
+  }
+  
+  @keyframes load_up_text {
+    from {
+        transform:translateY(100vh);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes load_up_text {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
