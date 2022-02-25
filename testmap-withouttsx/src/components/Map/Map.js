@@ -22,7 +22,6 @@ class Map extends React.Component {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        map
         {datalieux.map((lieux) => (
           <Marqueur
             type={lieux.type_lieux}
@@ -35,6 +34,7 @@ class Map extends React.Component {
             image={lieux.image}
           />
         ))}
+        <UserMarqueur/>
         
       </MapContainer>
     );
