@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './Login.css'
 import { userData } from '../../data/userData';
 import bcrypt from 'bcryptjs';
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Login() {
     const [username, setUser] = useState('')
@@ -55,12 +55,12 @@ function Login() {
                         <input className='inputPassword' type="password" id="password" onChange={onChangePwd} value={password.value} required />
                     </label>
                     <Link to='/MapPage'>
-                    <div>
-                        <button className='submitButton' type="submit">Se Connecter</button>
-                    </div>
+                        <div>
+                            <button className='submitButton' type="submit">Se Connecter</button>
+                        </div>
                     </Link>
                 </form>
-                <Link to="/MapPage"><span className="registerLink">S'enregistrer</span></Link>
+                <span className="registerLink">S'enregistrer</span>
             </div>
         </div>
 
