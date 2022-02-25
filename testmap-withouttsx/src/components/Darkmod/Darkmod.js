@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-import "./VibrationSetting.css";
+import "./Darkmod.css";
 
-export default class VibrationSetting extends Component {
+export default class Darkmod extends Component {
     
     render() {
         return (
-            <div className="VibrationSetting">
+            <div className="DarkmodSetting">
                 <div className="settingTag">
-                    Activer les vibrations
+                    Mettre le mode nuit
                 </div>
                 <div>
                     <input class="switch-vibration" type="checkbox"></input>

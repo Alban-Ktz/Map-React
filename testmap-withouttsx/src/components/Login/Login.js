@@ -55,7 +55,7 @@ function Login() {
               <input className='inputPassword' type="password"  id="password" onChange={onChangePwd} value={password.value} required/>
           </label>
           <div>
-          <button className='submitButton' type="submit" >Se Connecter</button>
+          <button className='submitButton' type="submit">Se Connecter</button>
           </div>
           </form>
       </div>
